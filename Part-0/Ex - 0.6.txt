@@ -1,0 +1,19 @@
+note over browser:
+user creates a new note
+by filling the given input field 
+and clicking the submit button
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/newNoteSpa
+
+note over server:
+server saves the new note in the page
+end note
+
+server-->browser: [{"message":"note created"
+
+note over browser:
+browser executes the functions
+and add the changes in note and
+then renders notes to display
+end note
